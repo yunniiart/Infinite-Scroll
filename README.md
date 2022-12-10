@@ -1,3 +1,3 @@
-# template-test
+# Infinite-Scroll
 
-Nothing to see here....
+Scrolls images infinitely using Javascript and the Unsplash API. Can be viewed at: 
