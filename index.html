@@ -7,7 +7,7 @@
         <!-- Default Settings-->
         <meta charset="utf-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <title>Template</title>
+        <title>Infinite Scroll</title>
 
         <!-- This is the stylesheet. --> 
         <link rel="stylesheet" href="style.css">
@@ -15,13 +15,22 @@
         <!-- Icon for browser tab-->
         <link rel="icon" type="image/png" href="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://css-tricks.com&size=16">
 
-        <!-- Fontawesome icons for use on sites, etc-->
-        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     </head>
 
     <body>
+        <!--Title-->
+        <h1>Infinite Scroll</h1>
 
+        <!--Loader-->
+        <div class="loader" id="loader" hidden>
+            <img src="loader.svg" alt="loading">
+        </div>
+
+        <!--Image Container-->
+        <div class="image-container" id="image-container">
+
+        </div>
 
         <!--Script-->
         <script src="script.js">
